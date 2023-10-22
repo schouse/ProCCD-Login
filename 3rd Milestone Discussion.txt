@@ -1,0 +1,18 @@
+1. Where is the Export happening? Message shows Users redords successfulyy exported. It should ask admin to point to save location folder.
+
+2. Print List just shows Excel and then disappears. It should show list of installed and default printers like Microsoft Print to PDF etc.
+
+3. I can remove Admin. Main "Admin" should not be removable (I think). At least 1 admin account should be there.
+
+4. Activation and Deactivation don't work correctly. Lets say I add some users test1, then test3, then test2. The sequence in the table view can be sorted alphabetically for 1st column (test1, test2, test3). In Edit Existing User group, the sequence in drop down is still test1, test3, test2 (in the same sequence as they were added). Like this:
+	UserTableView	EditExistingUserDropDownList
+	(sorted)		(still in order of how they were added)	
+	test1		-> 	test1
+	test2		-> 	test3
+	test3		-> 	test2
+Now when I activate/deactivate test3 from the drop down list, the actual activation/deactivation happens for test2. You will probably have to pass the changes as per the user name and not as per the ID or order of addition.
+
+5. Audit Activity tab is not implemented yet?
+
+
+

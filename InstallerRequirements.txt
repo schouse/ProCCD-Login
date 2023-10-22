@@ -1,0 +1,18 @@
+
+
+EXE to install:
+----------------------------------------------------------------------
+    wkhtmltopdf to C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe
+    https://stackoverflow.com/questions/51941574/how-to-include-wkhtmltopdf-with-pyinstaller
+
+
+DLL files needed:
+----------------------------------------------------------------------
+    c:\windows\System32\eps2003csp11.dll
+    c:\windows\System32\mTokenMiniDrv.x64.dll
+    c:\windows\System32\SignatureP11.dll
+
+
+Create needed:
+----------------------------------------------------------------------
+    C:\ProgramData\ProCCD\dblogin.db

@@ -1,0 +1,14 @@
+numpy
+pandas
+PIL
+cv2
+datetime
+pathlib
+piexif
+seqfile
+sqlite3
+pickle
+PyPDF2
+pdfkit 
+endesive
+wkhtmltopdf
